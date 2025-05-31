@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BQ24040DSQR")(type "KiCad")(uri "${KIPRJMOD}/BQ24040DSQR")(options "")(descr ""))
+  (lib (name "ICM42670")(type "KiCad")(uri "${KIPRJMOD}/ICM42670")(options "")(descr ""))
+  (lib (name "ESD7104")(type "KiCad")(uri "${KIPRJMOD}/ESD7104MUTAG/footprints.pretty")(options "")(descr ""))
+)
