@@ -226,7 +226,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "unconnected_wire_endpoint|596900|431800|be437e02-ceae-4f42-b9a4-cc82e99902ef|00000000-0000-0000-0000-000000000000|/e294150e-3d26-4d2a-9282-cdedc8a58cc0||",
+        ""
+      ],
+      [
+        "unconnected_wire_endpoint|596900|482600|4c7363f2-560f-4310-8119-e4b728aed2a3|00000000-0000-0000-0000-000000000000|/e294150e-3d26-4d2a-9282-cdedc8a58cc0||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -574,6 +583,18 @@
         },
         {
           "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "MF",
           "name": "MF",
           "show": false
@@ -586,6 +607,12 @@
         },
         {
           "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Package",
           "name": "Package",
           "show": false
@@ -594,6 +621,18 @@
           "group_by": false,
           "label": "Price",
           "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pin",
+          "name": "Sim.Pin",
           "show": false
         },
         {
