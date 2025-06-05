@@ -37050,7 +37050,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U2"
 				(at 20.32 10.16 0)
 				(effects
 					(font
@@ -37066,7 +37066,7 @@
 					)
 				)
 			)
-			(property "Footprint" "UDFN10_ONS"
+			(property "Footprint" "ESD7104:UDFN10_ONS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -37260,7 +37260,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin bidirectional line
 					(at 40.64 0 180)
 					(length 7.62)
 					(name "NC"
@@ -37278,7 +37278,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin bidirectional line
 					(at 40.64 -2.54 180)
 					(length 7.62)
 					(name "NC"
@@ -37314,7 +37314,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin bidirectional line
 					(at 40.64 -7.62 180)
 					(length 7.62)
 					(name "NC"
@@ -43311,6 +43311,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 172.72 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com.au/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723?_gl=1*1en786n*_up*MQ..*_gs*NA..&gclid=CjwKCAjw3f_BBhAPEiwAaA3K5EzdtylBuzTH5Tp0Lw0_r2Jmw2ftEDYT3LvE-E-vyVXnVc6dkaUpDRoCz0sQAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAADrbLliRg89CaQ4Hkh6Tuyu0avDiE"
 			(at 172.72 116.84 0)
 			(effects
 				(font
