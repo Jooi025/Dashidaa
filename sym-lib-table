@@ -4,4 +4,5 @@
   (lib (name "ICM-42670-P")(type "KiCad")(uri "${KIPRJMOD}/ICM42670/ICM-42670-P.kicad_sym")(options "")(descr ""))
   (lib (name "ESD7104")(type "KiCad")(uri "${KIPRJMOD}/ESD7104MUTAG/ESD7104.kicad_sym")(options "")(descr ""))
   (lib (name "ECS-2520MVQ-480-CN-TR")(type "KiCad")(uri "${KIPRJMOD}/ECS_2520MVQ_480_CN_TR/ECS-2520MVQ-480-CN-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "222AMVBAR")(type "KiCad")(uri "${KIPRJMOD}/222AMVBAR/222AMVBAR.kicad_sym")(options "")(descr ""))
 )

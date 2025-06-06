@@ -56,9 +56,47 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.2032,
+          "width": 0.15545
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|137145000|87350000|610b74be-3c45-4a58-896b-61b24f8e2d9a|5d89ed20-bd74-4ced-8e03-7a8d32bf378b",
+          ""
+        ],
+        [
+          "hole_clearance|137145000|87350000|610b74be-3c45-4a58-896b-61b24f8e2d9a|987854c4-b49a-4683-b280-c1d114604e4b",
+          ""
+        ],
+        [
+          "hole_clearance|137145000|87550000|610b74be-3c45-4a58-896b-61b24f8e2d9a|e6fd346a-e670-4d43-bc32-0e02ebb06df1",
+          ""
+        ],
+        [
+          "hole_clearance|137145000|87550000|610b74be-3c45-4a58-896b-61b24f8e2d9a|f4e209cd-2a30-4ddb-93d2-966eef33459c",
+          ""
+        ],
+        [
+          "hole_clearance|137145000|92950000|f06b887d-fdc1-4ad6-8d55-e712931c8500|198791b8-bde3-4e1f-b475-6508c66310e9",
+          ""
+        ],
+        [
+          "hole_clearance|137145000|92950000|f06b887d-fdc1-4ad6-8d55-e712931c8500|da56e00a-519a-437a-bf91-a258e9d9d547",
+          ""
+        ],
+        [
+          "hole_clearance|137145000|93150000|f06b887d-fdc1-4ad6-8d55-e712931c8500|11bd729b-73df-4556-8738-14a4d2b3dba4",
+          ""
+        ],
+        [
+          "hole_clearance|137145000|93150000|f06b887d-fdc1-4ad6-8d55-e712931c8500|5e55e87f-a59c-40ad-a82c-98b29329c31c",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -136,7 +174,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.0889,
+        "min_track_width": 0.09,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
@@ -188,7 +226,6 @@
       ],
       "track_widths": [
         0.0,
-        0.127,
         0.254,
         0.508,
         0.762
@@ -251,16 +288,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "unconnected_wire_endpoint|596900|431800|be437e02-ceae-4f42-b9a4-cc82e99902ef|00000000-0000-0000-0000-000000000000|/e294150e-3d26-4d2a-9282-cdedc8a58cc0||",
-        ""
-      ],
-      [
-        "unconnected_wire_endpoint|596900|482600|4c7363f2-560f-4310-8119-e4b728aed2a3|00000000-0000-0000-0000-000000000000|/e294150e-3d26-4d2a-9282-cdedc8a58cc0||",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
