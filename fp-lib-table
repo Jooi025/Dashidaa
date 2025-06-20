@@ -1,8 +1,7 @@
 (fp_lib_table
   (version 7)
-  (lib (name "BQ24040DSQR")(type "KiCad")(uri "${KIPRJMOD}/BQ24040DSQR")(options "")(descr ""))
-  (lib (name "ICM42670")(type "KiCad")(uri "${KIPRJMOD}/ICM42670")(options "")(descr ""))
-  (lib (name "ESD7104")(type "KiCad")(uri "${KIPRJMOD}/ESD7104MUTAG/footprints.pretty")(options "")(descr ""))
-  (lib (name "ECS_2520MVQ_480_CN_TR")(type "KiCad")(uri "${KIPRJMOD}/ECS_2520MVQ_480_CN_TR")(options "")(descr ""))
-  (lib (name "USBLC6_2SC6")(type "KiCad")(uri "${KIPRJMOD}/USBLC6_2SC6")(options "")(descr ""))
+  (lib (name "BQ24040DSQR")(type "KiCad")(uri "${KIPRJMOD}/external_components/BQ24040DSQR")(options "")(descr ""))
+  (lib (name "ICM42670")(type "KiCad")(uri "${KIPRJMOD}/external_components/ICM42670")(options "")(descr ""))
+  (lib (name "ECS_2520MVQ_480_CN_TR")(type "KiCad")(uri "${KIPRJMOD}/external_components/ECS_2520MVQ_480_CN_TR")(options "")(descr ""))
+  (lib (name "USBLC6_2SC6")(type "KiCad")(uri "${KIPRJMOD}/external_components/USBLC6_2SC6")(options "")(descr ""))
 )
