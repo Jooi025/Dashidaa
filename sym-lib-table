@@ -4,4 +4,5 @@
   (lib (name "ICM-42670-P")(type "KiCad")(uri "${KIPRJMOD}/external_components/ICM42670/ICM-42670-P.kicad_sym")(options "")(descr ""))
   (lib (name "ECS-2520MVQ-480-CN-TR")(type "KiCad")(uri "${KIPRJMOD}/external_components/ECS_2520MVQ_480_CN_TR/ECS-2520MVQ-480-CN-TR.kicad_sym")(options "")(descr ""))
   (lib (name "USBLC6-2SC6")(type "KiCad")(uri "${KIPRJMOD}/external_components/USBLC6_2SC6/USBLC6-2SC6.kicad_sym")(options "")(descr ""))
+  (lib (name "EVQPUA02K")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/external_components/EVQPUA02K/EVQPUA02K.elibz")(options "")(descr ""))
 )

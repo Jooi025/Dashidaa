@@ -4,4 +4,5 @@
   (lib (name "ICM42670")(type "KiCad")(uri "${KIPRJMOD}/external_components/ICM42670")(options "")(descr ""))
   (lib (name "ECS_2520MVQ_480_CN_TR")(type "KiCad")(uri "${KIPRJMOD}/external_components/ECS_2520MVQ_480_CN_TR")(options "")(descr ""))
   (lib (name "USBLC6_2SC6")(type "KiCad")(uri "${KIPRJMOD}/external_components/USBLC6_2SC6")(options "")(descr ""))
+  (lib (name "EVQPUA02K")(type "KiCad")(uri "${KIPRJMOD}/external_components/EVQPUA02K")(options "")(descr ""))
 )

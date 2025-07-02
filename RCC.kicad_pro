@@ -738,6 +738,30 @@
     [
       "e294150e-3d26-4d2a-9282-cdedc8a58cc0",
       "Root"
+    ],
+    [
+      "56ad4f71-0c89-4ede-bdb8-a635c883f5a8",
+      "Battery Charger"
+    ],
+    [
+      "29c7e401-d92c-4791-8d03-5675efd6a661",
+      "Voltage Regulator"
+    ],
+    [
+      "3a37a755-28c1-4ae1-a40a-4b3aa432acf1",
+      "Microcontroller"
+    ],
+    [
+      "4200ab10-7b49-4ab7-8135-cfd440998232",
+      "USB Connector"
+    ],
+    [
+      "c9a7c090-67af-478b-965e-415bbee27a05",
+      "Gyroscope and Accelerometer"
+    ],
+    [
+      "493425b9-fd1d-4a7e-a85c-49fae788b558",
+      "Oled RGB Display"
     ]
   ],
   "text_variables": {}
