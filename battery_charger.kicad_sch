@@ -934,30 +934,18 @@
 		(uuid "89bf1385-6392-4b5c-b7a8-97d8f6b4df21")
 	)
 	(junction
-		(at 167.64 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c87a75bb-bf67-4b86-90f6-e0565cc72812")
-	)
-	(junction
 		(at 173.99 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4f26044-af25-4943-a063-8afeba065c30")
 	)
 	(no_connect
+		(at 152.4 92.71)
+		(uuid "ecc493c8-1137-479b-99c2-19b95b44e2f7")
+	)
+	(no_connect
 		(at 123.19 102.87)
 		(uuid "f2f46e45-e3e6-449c-afbd-de6b505765d7")
-	)
-	(wire
-		(pts
-			(xy 167.64 92.71) (xy 167.64 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03a5a278-b8be-47e7-9d01-58b221499c5f")
 	)
 	(wire
 		(pts
@@ -1021,7 +1009,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 123.19) (xy 167.64 123.19)
+			(xy 161.29 123.19) (xy 173.99 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1191,16 +1179,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 107.95) (xy 167.64 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b158efa0-492a-4b84-b388-80d1b5027ad9")
-	)
-	(wire
-		(pts
 			(xy 114.3 97.79) (xy 114.3 123.19)
 		)
 		(stroke
@@ -1228,16 +1206,6 @@
 			(type default)
 		)
 		(uuid "bf267655-ed12-4f13-8c10-c6b5abf71b78")
-	)
-	(wire
-		(pts
-			(xy 152.4 92.71) (xy 167.64 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2a8da1b-a6aa-44bc-a363-517909ff5d78")
 	)
 	(wire
 		(pts
@@ -1288,16 +1256,6 @@
 			(type default)
 		)
 		(uuid "eef0bf91-54ab-4729-a50a-99d920642bbb")
-	)
-	(wire
-		(pts
-			(xy 167.64 123.19) (xy 173.99 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f20f3703-a1a7-4999-8bd4-b862e4f18b22")
 	)
 	(wire
 		(pts
@@ -1358,16 +1316,6 @@
 			(justify right bottom)
 		)
 		(uuid "50fc2f9f-e604-4af5-b2f1-d60367c8d2d3")
-	)
-	(label "TS"
-		(at 156.21 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6615930f-17e2-405c-a4c4-b759abe20367")
 	)
 	(label "CHG_N"
 		(at 182.88 114.3 0)
@@ -1449,7 +1397,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 125.73 116.84 90)
 			(effects
 				(font
@@ -1527,7 +1475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 173.99 105.41 0)
 			(effects
 				(font
@@ -1596,7 +1544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 119.38 82.55 0)
 			(effects
 				(font
@@ -1665,7 +1613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 133.35 116.84 0)
 			(effects
 				(font
@@ -1802,7 +1750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 106.68 106.68 0)
 			(effects
 				(font
@@ -1937,7 +1885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 182.88 101.6 0)
 			(effects
 				(font
@@ -2007,7 +1955,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 182.88 107.95 90)
 			(effects
 				(font
@@ -2053,76 +2001,6 @@
 			(project "RCC"
 				(path "/e294150e-3d26-4d2a-9282-cdedc8a58cc0/56ad4f71-0c89-4ede-bdb8-a635c883f5a8"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 167.64 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee29642d-939a-4f7d-801b-ab061ce410ef")
-		(property "Reference" "R3"
-			(at 162.814 104.14 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 162.56 106.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 167.64 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 167.64 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2346ed30-483c-49c9-a443-40c523154e35")
-		)
-		(pin "2"
-			(uuid "2aefbeef-83df-41e4-8789-58e20ab7a50f")
-		)
-		(instances
-			(project "RCC"
-				(path "/e294150e-3d26-4d2a-9282-cdedc8a58cc0/56ad4f71-0c89-4ede-bdb8-a635c883f5a8"
-					(reference "R3")
 					(unit 1)
 				)
 			)
