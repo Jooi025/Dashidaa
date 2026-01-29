@@ -1,0 +1,40 @@
+../Core/Inc/gif.inl:171:16:int32_t readMem(GIFFILE*, uint8_t*, int32_t)	3
+../Core/Inc/gif.inl:186:16:int32_t readFLASH(GIFFILE*, uint8_t*, int32_t)	3
+../Core/Inc/gif.inl:201:16:int32_t seekMem(GIFFILE*, int32_t)	3
+../Core/Inc/gif.inl:259:12:int GIFInit(GIFIMAGE*)	4
+../Core/Inc/gif.inl:278:12:int GIFParseInfo(GIFIMAGE*, int)	59
+../Core/Inc/gif.inl:554:5:int GIF_getInfo(GIFIMAGE*, GIFINFO*)	32
+../Core/Inc/gif.inl:747:12:int GIFGetMoreData(GIFIMAGE*)	13
+../Core/Inc/gif.inl:781:13:void DrawCooked(GIFIMAGE*, GIFDRAW*, void*)	47
+../Core/Inc/gif.inl:1025:13:void DrawNewPixels(GIFIMAGE*, GIFDRAW*)	5
+../Core/Inc/gif.inl:1054:12:int LZWCopyBytes(unsigned char*, int, uint32_t*, uint16_t*)	3
+../Core/Inc/gif.inl:1131:12:int DecodeLZWTurbo(GIFIMAGE*, int)	27
+../Core/Inc/gif.inl:1266:13:void GIFMakePels(GIFIMAGE*, unsigned int)	27
+../Core/Inc/gif.inl:1407:12:int DecodeLZW(GIFIMAGE*, int)	18
+../Core/Inc/gif.inl:1499:6:void GIF_setDrawCallback(GIFIMAGE*, void (*)(GIFDRAW*))	1
+../Core/Inc/gif.inl:1508:6:void GIF_scaleHalf(uint16_t*, uint16_t*, int, int)	3
+../Core/Src/AnimatedGIF.cpp:30:5:int AnimatedGIF::open(uint8_t*, int, void (*)(GIFDRAW*))	1
+../Core/Src/AnimatedGIF.cpp:60:5:int AnimatedGIF::getComment(char*)	1
+../Core/Src/AnimatedGIF.cpp:75:5:int AnimatedGIF::allocFrameBuf(void* (*)(uint32_t))	5
+../Core/Src/AnimatedGIF.cpp:93:5:int AnimatedGIF::allocTurboBuf(void* (*)(uint32_t))	5
+../Core/Src/AnimatedGIF.cpp:110:6:void AnimatedGIF::setFrameBuf(void*)	1
+../Core/Src/AnimatedGIF.cpp:117:6:void AnimatedGIF::setTurboBuf(void*)	1
+../Core/Src/AnimatedGIF.cpp:125:5:int AnimatedGIF::setDrawType(int)	3
+../Core/Src/AnimatedGIF.cpp:135:5:int AnimatedGIF::freeTurboBuf(void (*)(void*))	2
+../Core/Src/AnimatedGIF.cpp:148:5:int AnimatedGIF::freeFrameBuf(void (*)(void*))	2
+../Core/Src/AnimatedGIF.cpp:161:11:uint8_t* AnimatedGIF::getFrameBuf()	1
+../Core/Src/AnimatedGIF.cpp:169:11:uint8_t* AnimatedGIF::getTurboBuf()	1
+../Core/Src/AnimatedGIF.cpp:174:5:int AnimatedGIF::getCanvasWidth()	1
+../Core/Src/AnimatedGIF.cpp:179:5:int AnimatedGIF::getFrameWidth()	1
+../Core/Src/AnimatedGIF.cpp:183:5:int AnimatedGIF::getFrameHeight()	1
+../Core/Src/AnimatedGIF.cpp:188:5:int AnimatedGIF::getFrameXOff()	1
+../Core/Src/AnimatedGIF.cpp:193:5:int AnimatedGIF::getFrameYOff()	1
+../Core/Src/AnimatedGIF.cpp:198:5:int AnimatedGIF::getCanvasHeight()	1
+../Core/Src/AnimatedGIF.cpp:203:5:int AnimatedGIF::getLoopCount()	1
+../Core/Src/AnimatedGIF.cpp:208:5:int AnimatedGIF::getInfo(GIFINFO*)	1
+../Core/Src/AnimatedGIF.cpp:213:5:int AnimatedGIF::getLastError()	1
+../Core/Src/AnimatedGIF.cpp:221:5:int AnimatedGIF::open(const char*, void* (*)(const char*, int32_t*), void (*)(void*), int32_t (*)(GIFFILE*, uint8_t*, int32_t), int32_t (*)(GIFFILE*, int32_t), void (*)(GIFDRAW*))	2
+../Core/Src/AnimatedGIF.cpp:238:6:void AnimatedGIF::close()	2
+../Core/Src/AnimatedGIF.cpp:244:6:void AnimatedGIF::reset()	1
+../Core/Src/AnimatedGIF.cpp:250:6:void AnimatedGIF::begin(unsigned char)	4
+../Core/Src/AnimatedGIF.cpp:265:5:int AnimatedGIF::playFrame(bool, int*, void*)	11
